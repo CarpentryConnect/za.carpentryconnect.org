@@ -2,9 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$gray: #DFDFE0;
-
-
 * {
  box-sizing: border-box;
 }
@@ -101,15 +98,14 @@ strong {
  font-weight: 500;
 }
 .button {
- color: black;
- background-color: #fff;
- transition: .25s background;
+ color: #fff;
+ background-color: #191970;
  padding: 1em 2em;
  display: inline-block;
 
  &:hover {
-   background-color: #191970;
-   color:white;
+   background-color: #dfdfe0;
+   color:black;
  }
  &:active {
   background-color: #191970;
