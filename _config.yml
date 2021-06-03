@@ -2,3 +2,9 @@ markdown: kramdown
 
 gems:
  - jekyll-redirect-from
+ 
+ 
+ # This URL is the main address for absolute links. Do not include a slash at the end.
+ #
+ url: 'https://carpentryconnect.github.io'
+ baseurl: '/za.carpentryconnect.org'
