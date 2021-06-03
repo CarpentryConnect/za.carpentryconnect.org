@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>CarpentryConnect South Africa 2021 - Online</title>
+
+  <link href="/css/style.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Open Graph Data -->
+  <meta property="og:title" content="CarpentryConnect South Africa 2021 - OnlineCarpentryConnect South Africa 2021 - Online"/>
+  <meta property="og:url" content="http://za.carpentryconnect.org"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="A community conference for Carpentries community members, Member organisations and partners in South Africa."/>
+ 
+ </head>
+
+ <body class="main">
+
+  {% include header.html %}
+
+  <div class="{% if page.class %}{{ page.class }}{% endif %}">
+   {{ content }}
+   {% include footer.html %}
+  </div>
+
+ </body>
+</html>
