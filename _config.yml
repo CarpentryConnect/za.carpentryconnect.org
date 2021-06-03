@@ -3,6 +3,7 @@ markdown: kramdown
 plugins-dir:
   - jekyll-redirect-from
  
-
+url: 'https://carpentryconnect.github.io'
+baseurl: '/za.carpentryconnect.org'
  
  
