@@ -1,6 +1,6 @@
 markdown: kramdown
 
-gems:
+plugins:
  - jekyll-redirect-from
  
  
