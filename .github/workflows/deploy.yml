@@ -34,10 +34,10 @@ jobs:
           restore-keys: |
             gems-
 
-      - name: Lint _config.yml with yaml-lint
+      - name: Lint YAML headers
         run: |
           yaml-lint  _config.yml
-          yaml-lint index.html
+          yaml-lint -n index.html
           yaml-lint -q -n $(find _posts -regex ".*.md\|.*html") &&\
           yaml-lint -q -n $(find pages -regex ".*.md\|.*html")
 
