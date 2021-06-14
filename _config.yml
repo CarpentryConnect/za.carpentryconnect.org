@@ -1,7 +1,0 @@
-markdown: kramdown
-
-plugins-dir:
-  - jekyll-redirect-from
- 
-url: 'https://za2021.carpentries.org'
-baseurl: ''
