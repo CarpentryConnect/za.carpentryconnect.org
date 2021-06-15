@@ -20,7 +20,7 @@ $(function() {
 
 // ## Count Down
 $(function() {
-    $("#countdown").countdown("2021/09/06 8:00:00", {elapse: true}).on('update.countdown', function(event) {
+    $("#countdown").countdown("2021/09/06 9:00:00", {elapse: true}).on('update.countdown', function(event) {
         if (event.elapsed && event.strftime('%H') === "06") {
             $(this).text(event.strftime('CarpentryConnect South Africa 2021 has ended, See you again next year!.'));
         } else if (event.elapsed) {
