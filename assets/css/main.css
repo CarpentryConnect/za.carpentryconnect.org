@@ -22,7 +22,7 @@
 #participants,
 #contact,
 #coc{
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 // Startscreen
@@ -75,7 +75,7 @@
 
 // Footer
 #footer-sponsors-support{
-  margin: 120px 0;
+  margin: 30px 0;
 }
 
 #footer-sponsors-support a{
@@ -133,52 +133,14 @@
   text-decoration: underline;
 }
 
-// Google maps
-#wrapperMaps {
-  position: static;
-}
-
-#wrapper { position: relative; }
-#over_map {
-  position: absolute;
-  top: 100px;
-  left: 10px;
-  z-index: 99;
-  width: 90%;
-}
-
-.location-card {
-    background: #fff;
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
-    margin-bottom: 50px;
-    float: left;
-    width: 100%;
-    position: relative;
-    z-index: 9999;
-}
-
-#map{
-  width: 100%;
-  height: 600px;
-}
-
-.white-background{
-  background: #fff;
-  padding: 20px;
-}
-
-// faq
-#faq{
+// CoC
+#coc{
   padding: 150px 0;
 }
 
-#faq h2{
-  padding: 0 0 100px 0;
+#coc h2{
+  padding-top: 100px;
   text-align: center;
-}
-
-#faq .col-md-6{
-  padding: 15px 20px;
 }
 
 // Sponsors
@@ -201,6 +163,10 @@
 
 #organisers img{
   width:70%;
+}
+
+#organiser {
+  padding-bottom: 3rem;
 }
 
 // Participants
